@@ -1,0 +1,34 @@
+#include <iostream>
+
+int main(){
+
+    //Tamanho do array
+
+    char array[] = {'a', 'b', 'c', 'd', 'e'};
+    int tamanho = sizeof(array) / sizeof(array[0]);
+    cout << tamanho << endl;
+
+    return 0;
+}
+
+
+int main(){
+
+    //Fazer média de x números
+
+    float array[10];
+
+    cout << "Digite 10 número (inteiros ou não): ";
+    cin >> array[0] >> array[1] >> array[2] >> array[3] >> array[4] >> array[5] >> array[6] >> array[7] >> array[8] >> array[9];
+
+    float soma = 0;
+    for (int i = 0; i < 10; i++) {
+        soma += array[i];
+    }
+
+    float media = soma / 10;
+    cout << "A média é: " << media <<endl;
+
+
+    return 0;
+}
