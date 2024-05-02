@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+    int num1, num2, dividir;
+
+    cout << "Digite o primeiro número: ";
+    cin >> num1;
+
+    cout << "Digite o segundo número: ";
+    cin >> num2;
+    
+    dividir = num1 / num2;
+    cout << "A divisao dos dois numeros é: " << dividir << endl;
+
+
+
+    return 0;
+}
